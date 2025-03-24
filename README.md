@@ -4,17 +4,20 @@
 This paper is an exploratory data analysis (EDA) of cricket batting performance with Python data analysis methods. Pandas is used for handling data, Seaborn and Matplotlib for plotting,
 and common data preprocessing techniques to clean and analyze batting data.
 The aim is to find trends, distributions, and best-performing players on the basis of key statistics like runs scored, strike rate, and balls faced.
+
 **1. Introduction**
 Cricket analysis has become immensely important in sports analysis today.
 This paper proposes to examine batting statistics from a dataset (`alldatabatting.csv`) with Python. 
 The research seeks to investigate the trends in players' performances by different statistical processes and visualizations.
 The dataset contains 240 rows and 7 columns, including:
+
 **Name** (Player's name)
 **runs** (Total runs scored)
 **balls** (Balls faced)
 **fours** (Number of fours hit)
 **sixes** (Number of sixes hit)
 **sr** (Strike rate)
+
 **2. Methodology**
 - **Data Collection:** The data collection is based on player-specific batting statistics.
 - **Preprocessing:** Missing data are treated with replacement by 0.0.
